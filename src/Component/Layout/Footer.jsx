@@ -17,10 +17,11 @@ const Footer = () => {
         <div className='flex flex-col text-white'>
           <h1 className='text-xl py-5'>CATEGORIES</h1>
 
-          <Link to='/' className='hover:text-red-800'>Dog</Link>
-          <Link to='/' className='hover:text-red-800'>Dog Care</Link>
-          <Link to='/' className='hover:text-red-800'>Pets</Link>
-          <Link to='/' className='hover:text-red-800'>Uncategorized</Link>
+          <Link to='/' className='hover:text-red-800 pt-3'>Home</Link>
+          <Link to='/' className='hover:text-red-800 pt-3'>About Us</Link>
+          <Link to='/' className='hover:text-red-800 pt-3'>Services</Link>
+          <Link to='/' className='hover:text-red-800 pt-3'>Blog</Link>
+          <Link to='/' className='hover:text-red-800 pt-3'>Contact Us</Link>
         </div>
 
         <div className='text-white'>

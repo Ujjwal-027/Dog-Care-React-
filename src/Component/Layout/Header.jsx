@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <>
-    <nav className='grid grid-cols-5 bg-black'>
+    <nav className='grid grid-cols-5 bg-transparent absolute top-0 left-0 right-0 z-10 pt-4'>
 
-        <h1 className='col-spal-1 font-bold text-2xl text-center text-white py-5'>Dog care</h1>
+        <h1 className='col-spal-1 font-bold text-4xl text-center text-white py-5'>Dogs care</h1>
 
         <section className='col-span-3 flex justify-evenly items-center bg-transparent font-bold text-center text-white py-5'>
-            <Link to='/home' className='border-b-2 border-transparent hover:border-white transition-all duration-100 delay-200 '>HOME</Link>
+            <Link to='/' className='border-b-2 border-transparent hover:border-white transition-all duration-100 delay-200 '>HOME</Link>
             <Link to='/about'className='border-b-2 border-transparent hover:border-white transition-all duration-100 delay-200 '>ABOUT US</Link>
             <Link to='/service'className='border-b-2 border-transparent hover:border-white transition-all duration-100 delay-200 '>SERVICE</Link>
             <Link to='/Pages'className='border-b-2 border-transparent hover:border-white transition-all duration-100 delay-200 '>PAGES</Link>
