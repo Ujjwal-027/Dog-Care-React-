@@ -87,6 +87,39 @@ const Homepage = () => {
 
 		</section>
 
+		<section className=" bg-gray-100">
+			<h1 className="text-4xl font-bold text-center pt-8 pb-5">WHAT WE DO</h1>
+			<p className="text-2xl w-200 text-center ml-85">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque,
+				eaque ipsa quae ab illo inventore.
+			</p>
+
+			<div className="flex justify-center bg-gray-100 hover:shadow-gray-500 transition delay-100 duration-300 pt-10 pb-10">
+
+				<div className="flex flex-col w-100 bg-white hover:shadow-2xl transition delay-100 duration-300 mr-5">
+					<img src="./public/assets/img1.jpg" alt="image" />
+					<h1 className="text-2xl hover:text-red-400 transition delay-100 duration-300 p-2">Donec sed teus enime</h1>
+					<p className="p-2">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<Link to='/' className="p-4 text-red-400">READ MORE</Link>
+				</div>
+
+				<div className="flex flex-col w-100 bg-white hover:shadow-2xl transition delay-100 duration-300 mr-5">
+					<img src="./public/assets/img1.jpg" alt="image" />
+					<h1 className="text-2xl hover:text-red-400 transition delay-100 duration-300 p-2">Donec sed teus enime</h1>
+					<p className="p-2">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<Link to='/' className="p-4 text-red-400">READ MORE</Link>
+				</div>
+
+				<div className="flex flex-col w-100 bg-white hover:shadow-2xl transition delay-100 duration-300 mr-5">
+					<img src="./public/assets/img1.jpg" alt="image" />
+					<h1 className="text-2xl hover:text-red-400 transition delay-100 duration-300 p-2">Donec sed teus enime</h1>
+					<p className="p-2">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<Link to='/' className="p-4 text-red-400">READ MORE</Link>
+				</div>
+			</div>
+
+		</section>
+
 
 
     </>
