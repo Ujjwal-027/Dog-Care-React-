@@ -10,7 +10,7 @@ const Header = () => {
 
         <section className='col-span-3 flex justify-evenly items-center bg-transparent font-bold text-center text-white py-5'>
             <Link to='/' className='border-b-2 border-transparent hover:border-white transition-all duration-100 delay-200 '>HOME</Link>
-            <Link to='/about'className='border-b-2 border-transparent hover:border-white transition-all duration-100 delay-200 '>ABOUT US</Link>
+            <Link to='/aboutus'className='border-b-2 border-transparent hover:border-white transition-all duration-100 delay-200 '>ABOUT US</Link>
             <Link to='/service'className='border-b-2 border-transparent hover:border-white transition-all duration-100 delay-200 '>SERVICE</Link>
             <Link to='/Pages'className='border-b-2 border-transparent hover:border-white transition-all duration-100 delay-200 '>PAGES</Link>
             <Link to='/contact'className='border-b-2 border-transparent hover:border-white transition-all duration-100 delay-200 '>CONTACT</Link>
