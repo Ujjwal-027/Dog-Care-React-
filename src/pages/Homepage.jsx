@@ -120,10 +120,11 @@ const Homepage = () => {
 				</div>
 				<div className="flex flex-col justify-center pl-10">
 					<div>
-						<div className="text-3xl text-orange-400 pt-5">
-							<i class="bi bi-hand-thumbs-up-fill"></i>
-						</div>
-						<h1 className="text-2xl pt-5">Dog Sitting</h1>
+							<div className="text-3xl text-orange-400 pt-5">
+								<i class="bi bi-hand-thumbs-up-fill"></i>
+							</div>
+							<h1 className="text-2xl pt-5">Dog Sitting</h1>
+						
 						<p className="text-xl w-110 pt-3 pb-5 text-gray-500">Lorem ante ipsum primis in faucibus orci luctus eted ultrices posuere.</p>
 					</div>
 					<div>

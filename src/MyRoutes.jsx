@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Layout from './Component/Layout/Layout'
 import Homepage from './pages/Homepage'
 import AboutUs from './pages/AboutUs'
+import Service from './pages/Service'
 
 const MyRoutes = () => {
   return (
@@ -13,6 +14,7 @@ const MyRoutes = () => {
 
                 <Route index element={<Homepage/>} />
                 <Route path='/aboutus' element={<AboutUs/>} />
+                <Route path='/service' element={<Service/>}/>
                 
             </Route>
         </Route>
