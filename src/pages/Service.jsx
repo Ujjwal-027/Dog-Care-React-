@@ -77,8 +77,10 @@ const Service = () => {
                         </div>
                         <p className='text-xl w-90 text-gray-500 pl-12 pt-5'>Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque laudan.</p>
                     </div>
-                </div>
+                </div>   
+            </div>
 
+            <div>
                 
             </div>
         </section>
