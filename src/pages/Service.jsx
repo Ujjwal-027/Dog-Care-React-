@@ -80,8 +80,39 @@ const Service = () => {
                 </div>   
             </div>
 
+            {/* Next Service */}
+
             <div>
-                
+                <div>
+                    <h1 className='text-4xl '>
+                        Your pet is in good hands with us!
+                        Let your favorite get the best care in our center.
+                    </h1>
+
+                    <span className='text-2xl text-gray-500'>
+                        Nunc id ipsum fringilla, gravida felis vitae. 
+                        Phasellus lacinia id, sunt in culpa quis. lacinia.
+                    </span>
+
+                    <p className='text-2xl text-gray-500'>
+                        Lorem ipsum dolor, sit amet consectetur init adipisicing elit. Eos, debitis. 
+                        quasssssssunt natus tempore, maiores aliquid modi gravida felis vitae amet ad minus libero.
+                    </p>
+                    
+                    <button className='bg-orange-400 text-white px-5 py-3 rounded-sm border-1 border-orange-400 hover:text-orange-400 hover:border-1 hover:border-orange-400 hover:bg-white transition duration-300 delay-150'>
+                        Read More
+                    </button>
+                </div>
+
+                <div>
+                    <div>
+                        <div>
+                            <i class="bi bi-amazon"></i>
+                        </div>
+                        <p>Top Class Facilities</p>
+                    </div>
+
+                </div>
             </div>
         </section>
       
