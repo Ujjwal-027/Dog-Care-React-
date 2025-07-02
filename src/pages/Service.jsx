@@ -82,19 +82,19 @@ const Service = () => {
 
             {/* Next Service */}
 
-            <div>
+            <div className='flex justify-between items-center pt-10 pb-10 mr-40 ml-40'>
                 <div>
                     <h1 className='text-4xl '>
                         Your pet is in good hands with us!
                         Let your favorite get the best care in our center.
                     </h1>
 
-                    <span className='text-2xl text-gray-500'>
+                    <p className='text-xl text-gray-500 pt-8'>
                         Nunc id ipsum fringilla, gravida felis vitae. 
                         Phasellus lacinia id, sunt in culpa quis. lacinia.
-                    </span>
+                    </p>
 
-                    <p className='text-2xl text-gray-500'>
+                    <p className='text-xl text-gray-500 pt-8 pb-8'>
                         Lorem ipsum dolor, sit amet consectetur init adipisicing elit. Eos, debitis. 
                         quasssssssunt natus tempore, maiores aliquid modi gravida felis vitae amet ad minus libero.
                     </p>
@@ -104,12 +104,35 @@ const Service = () => {
                     </button>
                 </div>
 
-                <div>
-                    <div>
-                        <div>
-                            <i class="bi bi-amazon"></i>
+                <div className='flex flex-col w-400 h-auto'>
+                    <div className='pb-5'>
+                        <div className='flex'>
+                            <div className='text-2xl text-orange-400 pl-8 pr-8'>
+                                <i class="bi bi-amazon"></i>
+                            </div>
+                            <p className='text-2xl'>Top Class Facilities</p>
                         </div>
-                        <p>Top Class Facilities</p>
+                        <p className='text-xl text-gray-500 pl-25 pt-3'>Lorem ipsum dolor sit amet, Ea illum facere aperiam sequi optio amet ad minus libero dolor et ut.</p>
+                    </div>
+
+                    <div className='pb-5'>
+                        <div className='flex'>
+                            <div className='text-2xl text-orange-400 pl-8 pr-8'>
+                                <i class="bi bi-amazon"></i>
+                            </div>
+                            <p className='text-2xl'>Top Class Facilities</p>
+                        </div>
+                        <p className='text-xl text-gray-500 pl-25 pt-3'>Lorem ipsum dolor sit amet, Ea illum facere aperiam sequi optio amet ad minus libero dolor et ut.</p>
+                    </div>
+
+                    <div className='pb-5'>
+                        <div className='flex'>
+                            <div className='text-2xl text-orange-400 pl-8 pr-8'>
+                                <i class="bi bi-amazon"></i>
+                            </div>
+                            <p className='text-2xl'>Top Class Facilities</p>
+                        </div>
+                        <p className='text-xl text-gray-500 pl-25 pt-3'>Lorem ipsum dolor sit amet, Ea illum facere aperiam sequi optio amet ad minus libero dolor et ut.</p>
                     </div>
 
                 </div>
