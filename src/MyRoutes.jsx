@@ -4,6 +4,7 @@ import Layout from './Component/Layout/Layout'
 import Homepage from './pages/Homepage'
 import AboutUs from './pages/AboutUs'
 import Service from './pages/Service'
+import Notfound from './pages/Notfound'
 
 const MyRoutes = () => {
   return (
@@ -16,7 +17,10 @@ const MyRoutes = () => {
                 <Route path='/aboutus' element={<AboutUs/>} />
                 <Route path='/service' element={<Service/>}/>
                 
+                
             </Route>
+
+            <Route path='/notfound' element={<Notfound/>}/>
         </Route>
     </Routes>
     </BrowserRouter>
